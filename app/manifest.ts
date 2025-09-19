@@ -11,7 +11,8 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: '#4DA1A9',
     icons: [
       { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' },
-      { src: '/img/doble_g_logo.webp', sizes: '512x512', type: 'image/webp', purpose: 'any maskable' }
+      { src: '/img/doble_g_logo.webp', sizes: '512x512', type: 'image/webp', purpose: 'maskable' },
+      { src: '/img/doble_g_logo.webp', sizes: '512x512', type: 'image/webp', purpose: 'any' }
     ]
   }
 }
